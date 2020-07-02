@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="box" >
+        <input name="input1"/>
+        <input name="input2"/>
+        <input name="input3" id="text-input"/>
+        
+        <button onclick="myFunction()">Submit</button>
+
+        <script>
+        function myFunction() {
+            var box = document.box
+            var input1 = box.input1.value
+            var input2 = box.input2.value
+            var input3 = box.input3.value
+            alert("Thank you for submitting!! " + input1 + " " + input2 + " " +  input3)
+        }
+        </script>
+    </form>
+</body>
+</html>
