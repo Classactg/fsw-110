@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <
-</body>
+  </head>
+  <body>
+    <form name="text">
+      <div>
+          <span>First Name</span>
+        <input name="name1" type="text" /> 
+          <span>Last Name</span>
+        <input name="name2" type="text" />
+      </div>
+      <span>Age</span>
+      <div><input name="age" type="number" /></div>
+      <div>
+          <span>Gender</span>
+
+        <input name="gender" type="radio" value="male"/>
+          <span>Male</span>
+
+        <input name="gender" type="radio" value="female"/> <span>Female</span>
+      </div>
+      <span>Location</span>
+      <select name="location">
+        <option value="Paris">Paris</option>
+        <option value="Chicago">Chicago</option>
+        <option value="Guam">Guam</option>
+      </select>
+      <span>Diet</span>
+      <input name="diet" type="checkbox" value="vegetarian"/>
+      <span>Vegetarian</span>
+      <input name="diet" type="checkbox" value="kosher"/>
+      <span>Kosher</span>
+      <input name="diet" type="checkbox" value="lactose free"/>
+      <span>Lactose Free</span>
+      <button type="submit">Submit</button>
+    </form>
+    <script src="index.js"></script>
+  </body>
 </html>
